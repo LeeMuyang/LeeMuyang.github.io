@@ -211,7 +211,7 @@ classes that you can use:
 <p>&emsp;&emsp;关于这个博客，它的定位就是一个内容积累的地方吧。了解过的技术，学习时的笔记，看过的书都会存在这里。这样也会让自己可以定期的整理一些东西出来。尽管作为懒癌晚期的我都不信这种话，啊哈哈哈~每个人最大的敌人其实就是自己，所以和自己搏一圈，がんばってください 。</p>
 <p>&emsp;&emsp;如果想约我一起喝酒吃肉谈人生谈理想的话，emmmm…….其实喝酒吃肉就可以了。可以考虑如下的联系方式：</p>
 <blockquote>
-<p>Email：<a href="mailto:ylonglee@yeah.net" target="_blank" rel="noopener">ylonglee@yeah.net</a><br>Address：武汉，湖北，PRC</p>
+<p>Email：ylonglee@yeah.net<br>Address：武汉，湖北，PRC</p>
 </blockquote>
 <p>&emsp;&emsp;最后再说两句，为了你的秀发千万别学计算机。我是学计算机的，不是学修电脑装系统的。假装下面有照骗吧，溜了溜了~</p>
 
@@ -262,5 +262,21 @@ classes that you can use:
   <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
 <![endif]-->
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<!--<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>

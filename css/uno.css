@@ -11,7 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  /*vertical-align: baseline;*/ }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -927,7 +927,8 @@ body {
   /*font-family: "Raleway", sans-serif;*/
   font-family:  "Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
   font-size: 1em;
-  color: #666666; }
+  /*color: #666666; }*/
+  color: #2f2f2f;}
 
 ::selection {
   background: #b2b2b2; }
@@ -949,13 +950,13 @@ h1,
 h2,
 h3,
 h4,
-h5,
+
 h5 {
   margin-top: .8em;
   margin-bottom: .4em;
   /*font-family: "Roboto Slab", serif;*/
   font-family: "Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
-  font-weight: lighter;
+  font-weight: border;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
 
@@ -1215,7 +1216,7 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(68, 68, 68, 0.2);
+  background-color: rgba(60, 68, 68, 0.2);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(68, 68, 68, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.9)));
   background-image: -webkit-linear-gradient(-410deg, rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9));
   background-image: linear-gradient(140deg,rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9)); }
@@ -1427,7 +1428,14 @@ i {
     margin: 0 0 2.2em 0; }
     .post-list li:last-child hr {
       display: none; }
-
+.sup_css {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: super;  }
+  
 .post-list__post-title {
   margin-top: 0;
   margin-bottom: .2em;
